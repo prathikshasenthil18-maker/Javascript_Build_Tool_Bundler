@@ -1,0 +1,12 @@
+{
+  "name": "bundler-backend",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  }
+}

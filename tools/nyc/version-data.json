@@ -1,0 +1,7 @@
+{
+  "tool": "nyc",
+  "branch": "JS_FE24_BE18",
+  "frontend_node": 24,
+  "backend_node": 18,
+  "excel_source": "Scenario2_SplitVersions_Paired.xlsx / JavaScript / Build Tool / Bundler"
+}

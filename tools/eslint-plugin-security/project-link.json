@@ -1,0 +1,14 @@
+{
+  "tool": "eslint-plugin-security",
+  "branch": "JS_FE24_BE18",
+  "frontend_node": 24,
+  "backend_node": 18,
+  "npm_script": "lint:security",
+  "project_targets": [
+    "shared/**/*.js",
+    "backend_js/src/**/*.js",
+    "tool-fixtures/sastFixture.js"
+  ],
+  "linked_project": "Javascript Build Tool / Bundler",
+  "run_from": "repository root"
+}

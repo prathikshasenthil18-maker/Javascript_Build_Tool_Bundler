@@ -1,0 +1,12 @@
+{
+  "tool": "npm-audit",
+  "branch": "JS_FE24_BE18",
+  "frontend_node": 24,
+  "backend_node": 18,
+  "npm_script": "audit",
+  "project_targets": [
+    "package.json"
+  ],
+  "linked_project": "Javascript Build Tool / Bundler",
+  "run_from": "repository root"
+}

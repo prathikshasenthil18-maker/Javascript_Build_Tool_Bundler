@@ -1,0 +1,11 @@
+tool: eslint
+language: javascript
+scenario: "2 - Split-Versions"
+branch: "JS_FE20_BE18"
+frontend_node: "20"
+backend_node: "18"
+project_link: true
+run:
+  command: "bash tools/eslint/run.sh"
+  npm_script: "lint"
+  cwd: "repository_root"

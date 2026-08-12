@@ -1,0 +1,81 @@
+{
+  "project_type": "Build Tool / Bundler",
+  "scenario": "2 - Split-Versions",
+  "branch": "JS_FE20_BE18",
+  "frontend_node": "20",
+  "backend_node": "18",
+  "tools": [
+    {
+      "tool": "diff-cover",
+      "folder": "tools/diff-cover",
+      "npm_script": "diff-cover",
+      "run": "bash tools/diff-cover/run.sh"
+    },
+    {
+      "tool": "eslint",
+      "folder": "tools/eslint",
+      "npm_script": "lint",
+      "run": "bash tools/eslint/run.sh"
+    },
+    {
+      "tool": "eslint-plugin-security",
+      "folder": "tools/eslint-plugin-security",
+      "npm_script": "lint:security",
+      "run": "bash tools/eslint-plugin-security/run.sh"
+    },
+    {
+      "tool": "eslint-plugin-sonarjs",
+      "folder": "tools/eslint-plugin-sonarjs",
+      "npm_script": "lint:sonarjs",
+      "run": "bash tools/eslint-plugin-sonarjs/run.sh"
+    },
+    {
+      "tool": "jscpd",
+      "folder": "tools/jscpd",
+      "npm_script": "jscpd",
+      "run": "bash tools/jscpd/run.sh"
+    },
+    {
+      "tool": "lizard",
+      "folder": "tools/lizard",
+      "npm_script": "lizard",
+      "run": "bash tools/lizard/run.sh"
+    },
+    {
+      "tool": "mocha",
+      "folder": "tools/mocha",
+      "npm_script": "test",
+      "run": "bash tools/mocha/run.sh"
+    },
+    {
+      "tool": "npm-audit",
+      "folder": "tools/npm-audit",
+      "npm_script": "audit",
+      "run": "bash tools/npm-audit/run.sh"
+    },
+    {
+      "tool": "npm-ls",
+      "folder": "tools/npm-ls",
+      "npm_script": "ls",
+      "run": "bash tools/npm-ls/run.sh"
+    },
+    {
+      "tool": "nyc",
+      "folder": "tools/nyc",
+      "npm_script": "test:coverage",
+      "run": "bash tools/nyc/run.sh"
+    },
+    {
+      "tool": "pydriller",
+      "folder": "tools/pydriller",
+      "npm_script": "pydriller",
+      "run": "bash tools/pydriller/run.sh"
+    },
+    {
+      "tool": "stryker-js",
+      "folder": "tools/stryker-js",
+      "npm_script": "stryker",
+      "run": "bash tools/stryker-js/run.sh"
+    }
+  ]
+}

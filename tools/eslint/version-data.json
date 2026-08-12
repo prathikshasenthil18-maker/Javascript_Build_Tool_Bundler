@@ -1,0 +1,7 @@
+{
+  "tool": "eslint",
+  "branch": "JS_FE20_BE18",
+  "frontend_node": 20,
+  "backend_node": 18,
+  "excel_source": "Scenario2_SplitVersions_Paired.xlsx / JavaScript / Build Tool / Bundler"
+}

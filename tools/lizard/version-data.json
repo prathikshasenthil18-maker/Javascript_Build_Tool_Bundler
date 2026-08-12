@@ -1,0 +1,7 @@
+{
+  "tool": "lizard",
+  "branch": "JS_FE20_BE22",
+  "frontend_node": 20,
+  "backend_node": 22,
+  "excel_source": "Scenario2_SplitVersions_Paired.xlsx / JavaScript / Build Tool / Bundler"
+}

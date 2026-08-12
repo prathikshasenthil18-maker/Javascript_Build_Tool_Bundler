@@ -1,0 +1,12 @@
+{
+  "packageManager": "npm",
+  "reporters": ["json", "clear-text"],
+  "testRunner": "mocha",
+  "coverageAnalysis": "perTest",
+  "mochaOptions": { "spec": ["test/unit/resolverGraph.spec.js"] },
+  "mutate": ["backend_js/src/ModuleResolver.js"],
+  "jsonReporter": { "fileName": "reports/mutation/mutation.json" },
+  "timeoutMS": 20000,
+  "concurrency": 2,
+  "ignoreStatic": true
+}

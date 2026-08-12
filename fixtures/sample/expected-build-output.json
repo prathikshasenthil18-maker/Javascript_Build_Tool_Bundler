@@ -1,0 +1,5 @@
+{
+  "bundle": "dist/bundle.js",
+  "css": "dist/styles.css",
+  "asset": "dist/sample.txt"
+}

@@ -1,0 +1,11 @@
+tool: nyc
+language: javascript
+scenario: "2 - Split-Versions"
+branch: "JS_FE22_BE24"
+frontend_node: "22"
+backend_node: "24"
+project_link: true
+run:
+  command: "bash tools/nyc/run.sh"
+  npm_script: "test:coverage"
+  cwd: "repository_root"

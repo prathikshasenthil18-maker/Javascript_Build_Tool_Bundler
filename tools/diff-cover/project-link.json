@@ -1,0 +1,13 @@
+{
+  "tool": "diff-cover",
+  "branch": "JS_FE22_BE24",
+  "frontend_node": 22,
+  "backend_node": 24,
+  "npm_script": "diff-cover",
+  "project_targets": [
+    "coverage/lcov.info",
+    "shared/src/**/*.js"
+  ],
+  "linked_project": "Javascript Build Tool / Bundler",
+  "run_from": "repository root"
+}

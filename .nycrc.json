@@ -1,0 +1,6 @@
+{
+  "reporter": ["text", "lcov", "json-summary"],
+  "all": true,
+  "include": ["shared/src/**/*.js", "backend_js/src/**/*.js"],
+  "exclude": ["test/**", "tool-fixtures/**", "frontend_js/**", "src/**", "dist/**", "cache/**"]
+}

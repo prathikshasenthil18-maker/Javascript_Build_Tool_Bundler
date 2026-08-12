@@ -1,0 +1,12 @@
+{
+  "tool": "jscpd",
+  "branch": "JS_FE18_BE20",
+  "frontend_node": 18,
+  "backend_node": 20,
+  "npm_script": "jscpd",
+  "project_targets": [
+    "tool-fixtures/**/*.js"
+  ],
+  "linked_project": "Javascript Build Tool / Bundler",
+  "run_from": "repository root"
+}

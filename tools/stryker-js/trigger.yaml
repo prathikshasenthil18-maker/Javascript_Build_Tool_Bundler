@@ -1,0 +1,11 @@
+tool: stryker-js
+language: javascript
+scenario: "2 - Split-Versions"
+branch: "JS_FE18_BE20"
+frontend_node: "18"
+backend_node: "20"
+project_link: true
+run:
+  command: "bash tools/stryker-js/run.sh"
+  npm_script: "stryker"
+  cwd: "repository_root"

@@ -1,0 +1,11 @@
+tool: eslint-plugin-sonarjs
+language: javascript
+scenario: "2 - Split-Versions"
+branch: "JS_FE18_BE20"
+frontend_node: "18"
+backend_node: "20"
+project_link: true
+run:
+  command: "bash tools/eslint-plugin-sonarjs/run.sh"
+  npm_script: "lint:sonarjs"
+  cwd: "repository_root"

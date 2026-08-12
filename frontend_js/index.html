@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Build Tool / Bundler</title>
+    <style>
+      :root { --bg:#101828; --card:#1a2436; --text:#eef2ff; --accent:#fb923c; --muted:#94a3b8; --ok:#4ade80; }
+      * { box-sizing: border-box; }
+      body { margin:0; font-family: "Trebuchet MS", "Segoe UI", sans-serif; color:var(--text); background: linear-gradient(145deg,#0b1220,#1a2436 40%,#111827); min-height:100vh; }
+      main { max-width:980px; margin:0 auto; padding:2rem 1.25rem 3rem; }
+      h1 { margin:0 0 .35rem; font-size:1.9rem; }
+      .sub { color:var(--muted); margin-bottom:1.4rem; }
+      .grid { display:grid; gap:1rem; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); }
+      .card { background:rgba(26,36,54,.95); border:1px solid #2b3b55; border-radius:14px; padding:1rem; }
+      button { background:var(--accent); color:#1c1917; border:0; border-radius:10px; padding:.55rem 1rem; font-weight:700; cursor:pointer; margin:.35rem .4rem .35rem 0; }
+      button.secondary { background:#475569; color:#fff; }
+      pre { white-space:pre-wrap; background:#0a1424; padding:.75rem; border-radius:8px; overflow:auto; font-size:.85rem; }
+    </style>
+  </head>
+  <body>
+    <main id="app"></main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

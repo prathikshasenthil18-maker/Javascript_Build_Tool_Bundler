@@ -1,0 +1,14 @@
+{
+  "tool": "lizard",
+  "branch": "JS_FE24_BE20",
+  "frontend_node": 24,
+  "backend_node": 20,
+  "npm_script": "lizard",
+  "project_targets": [
+    "shared/**/*.js",
+    "backend_js/src/**/*.js",
+    "src/**/*.js"
+  ],
+  "linked_project": "Javascript Build Tool / Bundler",
+  "run_from": "repository root"
+}

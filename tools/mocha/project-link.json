@@ -1,0 +1,12 @@
+{
+  "tool": "mocha",
+  "branch": "JS_FE24_BE20",
+  "frontend_node": 24,
+  "backend_node": 20,
+  "npm_script": "test",
+  "project_targets": [
+    "test/**/*.spec.js"
+  ],
+  "linked_project": "Javascript Build Tool / Bundler",
+  "run_from": "repository root"
+}

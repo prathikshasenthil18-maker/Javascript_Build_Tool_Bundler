@@ -1,0 +1,7 @@
+{
+  "threshold": 0,
+  "reporters": ["json", "console"],
+  "ignore": ["**/node_modules/**", "**/coverage/**", "**/reports/**", "**/dist/**", "**/cache/**"],
+  "minLines": 5,
+  "minTokens": 50
+}

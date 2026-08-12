@@ -1,0 +1,7 @@
+Scenario 2 Split-Versions JavaScript Build Tool / Bundler
+Branch: JS_FE18_BE24
+Frontend Node: 18 (ES2022 / Node.js 18)
+Backend Node: 24 (ES2024+ / Node.js 24)
+
+USER -> BuildDashboard(frontend_js) -> Build API(backend_js)
+     -> Resolver/Graph/Transformer/Bundler/Assets/Optimizer/Cache -> dist/

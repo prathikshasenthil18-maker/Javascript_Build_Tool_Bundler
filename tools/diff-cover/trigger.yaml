@@ -1,0 +1,11 @@
+tool: diff-cover
+language: javascript
+scenario: "2 - Split-Versions"
+branch: "JS_FE18_BE24"
+frontend_node: "18"
+backend_node: "24"
+project_link: true
+run:
+  command: "bash tools/diff-cover/run.sh"
+  npm_script: "diff-cover"
+  cwd: "repository_root"

@@ -1,0 +1,10 @@
+{
+  "entry": "src/index.js",
+  "output": "dist",
+  "mode": "development",
+  "sourceMap": true,
+  "minify": false,
+  "cache": true,
+  "assets": ["assets/styles.css", "assets/sample.txt"],
+  "circular": "error"
+}

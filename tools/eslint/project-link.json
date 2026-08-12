@@ -1,0 +1,15 @@
+{
+  "tool": "eslint",
+  "branch": "JS_FE18_BE24",
+  "frontend_node": 18,
+  "backend_node": 24,
+  "npm_script": "lint",
+  "project_targets": [
+    "shared/**/*.js",
+    "backend_js/src/**/*.js",
+    "frontend_js/src/**/*.js",
+    "src/**/*.js"
+  ],
+  "linked_project": "Javascript Build Tool / Bundler",
+  "run_from": "repository root"
+}

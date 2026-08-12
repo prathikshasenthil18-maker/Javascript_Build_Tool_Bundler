@@ -1,0 +1,7 @@
+{
+  "tool": "stryker-js",
+  "branch": "JS_FE18_BE22",
+  "frontend_node": 18,
+  "backend_node": 22,
+  "excel_source": "Scenario2_SplitVersions_Paired.xlsx / JavaScript / Build Tool / Bundler"
+}

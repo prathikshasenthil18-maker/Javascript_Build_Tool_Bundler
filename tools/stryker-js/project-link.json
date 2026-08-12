@@ -1,0 +1,12 @@
+{
+  "tool": "stryker-js",
+  "branch": "JS_FE18_BE22",
+  "frontend_node": 18,
+  "backend_node": 22,
+  "npm_script": "stryker",
+  "project_targets": [
+    "backend_js/src/ModuleResolver.js"
+  ],
+  "linked_project": "Javascript Build Tool / Bundler",
+  "run_from": "repository root"
+}

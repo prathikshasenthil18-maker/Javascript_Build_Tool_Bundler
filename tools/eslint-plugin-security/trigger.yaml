@@ -1,0 +1,11 @@
+tool: eslint-plugin-security
+language: javascript
+scenario: "2 - Split-Versions"
+branch: "JS_FE22_BE20"
+frontend_node: "22"
+backend_node: "20"
+project_link: true
+run:
+  command: "bash tools/eslint-plugin-security/run.sh"
+  npm_script: "lint:security"
+  cwd: "repository_root"

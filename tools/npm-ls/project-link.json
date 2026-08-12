@@ -1,0 +1,12 @@
+{
+  "tool": "npm-ls",
+  "branch": "JS_FE22_BE20",
+  "frontend_node": 22,
+  "backend_node": 20,
+  "npm_script": "ls",
+  "project_targets": [
+    "package.json"
+  ],
+  "linked_project": "Javascript Build Tool / Bundler",
+  "run_from": "repository root"
+}

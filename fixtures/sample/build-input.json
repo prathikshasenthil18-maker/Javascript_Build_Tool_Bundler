@@ -1,0 +1,4 @@
+{
+  "entry": "src/index.js",
+  "expected_modules": ["src/index.js", "src/app.js", "src/utils.js", "src/components/Button.js"]
+}

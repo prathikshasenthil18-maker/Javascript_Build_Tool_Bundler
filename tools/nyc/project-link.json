@@ -1,0 +1,13 @@
+{
+  "tool": "nyc",
+  "branch": "JS_FE24_BE22",
+  "frontend_node": 24,
+  "backend_node": 22,
+  "npm_script": "test:coverage",
+  "project_targets": [
+    "shared/src/**/*.js",
+    "backend_js/src/**/*.js"
+  ],
+  "linked_project": "Javascript Build Tool / Bundler",
+  "run_from": "repository root"
+}

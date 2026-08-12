@@ -1,0 +1,11 @@
+/* sample app styles */
+body {
+  font-family: sans-serif;
+  color: #111;
+  background: #f7f7f7;
+}
+
+.button {
+  padding: 8px 12px;
+  border-radius: 6px;
+}

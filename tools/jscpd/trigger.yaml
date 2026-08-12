@@ -1,0 +1,11 @@
+tool: jscpd
+language: javascript
+scenario: "2 - Split-Versions"
+branch: "JS_FE22_BE18"
+frontend_node: "22"
+backend_node: "18"
+project_link: true
+run:
+  command: "bash tools/jscpd/run.sh"
+  npm_script: "jscpd"
+  cwd: "repository_root"
